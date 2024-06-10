@@ -1,0 +1,174 @@
+/*
+
+--FONT WEIGHTS:
+  Default: 400
+  Medium: 500
+  Semi-bold: 600
+  Bold: 700
+
+--LINE HEIGHTS:
+Default: 1
+Small: 1.05
+Paragraph default: 1.6
+  
+--COLOURS:
+- Primary: #0C2D48;
+- Secondary: #13AEEC
+- Tints: #3d576d #d0effb #42bef0 rgba(19, 174, 236, 0.8) rgb(179, 179, 220, 0.9) #ced5da #e7eaed #f5f7f8;
+- Shades: #e6c200;
+- Accents: gold;
+- Greys: 
+#333 
+#555
+#6f6f6f (lightest grey allowed on #fdf2e9;
+#767676 (lightest grey allowed on #fff;
+
+SHADOWS:
+box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+
+-BORDER-RADIUS:
+Default: 6px;
+Medium: 11px;
+
+
+-SPACING SYSTEM (px)
+2 / 4 /8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: #333;
+  line-height: 1;
+  font-family: "Crimson Text", serif;
+  font-weight: 400;
+}
+
+/* Reusable Classes */
+.container {
+  /* 1140px */
+  max-width: 120rem;
+  padding: 0 2.4rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.heading-primary,
+.heading-secondary,
+.heading-tertiary {
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: -0.5px;
+}
+
+.heading-primary {
+  font-size: 5.2rem;
+  margin-bottom: 3.2rem;
+}
+
+.heading-secondary {
+  font-size: 4.8rem;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
+}
+
+.heading-tertiary {
+  font-size: 3.2rem;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+}
+
+.margin-bottom-md {
+  margin-bottom: 4.8rem !important;
+}
+
+/* *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(18, 175, 237, 0.5);
+} */
+
+/***********************************/
+/* Below 1200px (Landscape tablets)*/
+/***********************************/
+@media (max-width: 75em) {
+  html {
+    font-size: 59.38%;
+  }
+
+  .grid {
+    column-gap: 4.8rem;
+    row-gap: 6.4rem;
+  }
+}
+
+/*******************************************/
+/* MOBILE NAVIGATION BELOW 944px (Tablets)*/
+/******************************************/
+@media (max-width: 59em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .grid--3-cols {
+    grid-template-columns: 1fr;
+  }
+}
+
+/**************************************************/
+/* MOBILE NAVIGATION BELOW 752px (Smaller Tablets)*/
+/**************************************************/
+@media (max-width: 47em) {
+  .grid--2-cols {
+    grid-template-columns: 1fr;
+  }
+  .heading-primary {
+    font-size: 4.2rem;
+    margin-bottom: 3.2rem;
+  }
+
+  .heading-secondary {
+    font-size: 3.2rem;
+    margin-bottom: 2rem;
+  }
+}
+
+/**************************************************/
+/* MOBILE NAVIGATION BELOW 544px (Phones)*/
+/**************************************************/
+@media (max-width: 34em) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  .heading-primary {
+    font-size: 3.6rem;
+    margin-bottom: 3.2rem;
+  }
+
+  .heading-secondary {
+    font-size: 3.2rem;
+    margin-bottom: 2rem;
+  }
+}

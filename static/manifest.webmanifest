@@ -1,0 +1,6 @@
+{
+  "icons": [
+    { "src": "/ellavaldez192.png", "type": "image/png", "sizes": "192x195" },
+    { "src": "/ellavaldez512.png", "type": "image/png", "sizes": "512x519" }
+  ]
+}
