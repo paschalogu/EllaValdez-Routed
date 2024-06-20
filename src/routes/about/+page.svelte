@@ -15,7 +15,7 @@
   <div class="about-container">
       <div class="about-text-box">
           <h1 class="heading-primary">About Us</h1>
-          <p class="about-description">We are an event planning management and cleaning services company committed to creating eventful moments while leaving a sparkling touch!</p>          
+          <p class="about-description">Our capabilities of event planning and cleaning service lie beyond the spectrum of extraordinary. We would like to believe that what makes us so great is our originality and our determination to ensure that not only are we pleased with our work but also you as our client.</p>          
       </div>
 
       <div class="about-img-box">
@@ -24,22 +24,22 @@
   </div>
 
   <div class="ceo-container">
-    <div class="about-ceo-container container">
-      <div class="ceo-img-box">
+    <!-- <div class="about-ceo-container container"> -->
+      <!-- <div class="ceo-img-box">
         <img src="/img/female image.jpg" class="ceo-image" alt="about event"/>
-      </div>
+      </div> -->
 
-      <div class="ceo-text-box">
+      <div class="ceo-text-box container">
         <h3 class="heading-tertiary">A Zeal for Professionalism</h3>
         <p class="ceo-description">Ella Valdez Limited is a multi-functional service company    incorporated in 2020. The company’s passion and commitment, combined with the experience of our dedicated team, can create a memorable experience for both individuals and companies.
           We are a team that is passionate in creating monumental moment of your events, and we work tirelessly to make sure of it. We take pride in delivering either large or small event services to our clients, and we believe that each individual service come to its own uniqueness and we endeavor to provide unparalleled services with an outstanding customer service. We also believe that a successful event is directly linked to the client and guest experience as well, therefore, we work collaboratively to ensure the service
           we provide is cohesive and even the smallest of detail can have a huge impact to the service rendered.</p>
       </div>      
-    </div>
+    <!-- </div> -->
   </div>
 
   <div class="mission-container">
-    <div class="container grid grid--2-cols">
+    <div class="container grid grid--3-cols">
       <div class="vision-text-box">
         <h3 class="heading-tertiary">Our Vision</h3>
         <p class="vision-description">To be a market leading service provider company in the events management sector. </p>
@@ -50,7 +50,12 @@
         <p class="mission-description">Provide a quality valued services to the customers.
           Building a unique brand with integrity, elegance and professionalism.
           Making event as memorable and monumental.</p>
-      </div>      
+      </div>  
+      
+      <div class="mission-text-box">
+        <h3 class="heading-tertiary">Our Identity</h3>
+        <p class="mission-description">To deliver our services and to make it happen all at the customer’s request. Team talk and teamwork with much delight.</p>
+      </div> 
       
     </div>
 

@@ -19,6 +19,10 @@ npm create svelte@latest my-app
 Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
 ```bash
+npm install
+
+# to install the @sveltejs/adapter-static package and adds it to your project's dependencies.
+npm install @sveltejs/adapter-static
 npm run dev
 
 # or start the server and open the app in a new browser tab
