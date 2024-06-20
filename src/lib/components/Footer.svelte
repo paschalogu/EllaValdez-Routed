@@ -61,9 +61,9 @@
       </div>
       <ul class="social-links">
         <!-- <li><a class="social-link" href="#" target="_blank"><ion-icon class="social-icon" name="logo-instagram"></ion-icon></a></li> -->
-        <li><ion-icon class="social-link social-icon" name="logo-instagram"></ion-icon></li>
-        <li><ion-icon class="social-link social-icon" name="logo-facebook"></ion-icon></li>
-        <li><ion-icon class="social-link social-icon" name="logo-twitter"></ion-icon></li>
+        <li><a class="social-link"><ion-icon class="social-icon" name="logo-instagram"></ion-icon></a></li>
+        <li><a class="social-link"><ion-icon class="social-icon" name="logo-facebook"></ion-icon></a></li>
+        <li><a class="social-link"><ion-icon class="social-icon" name="logo-twitter"></ion-icon></a></li>
       </ul>
     </div>
 
@@ -137,11 +137,12 @@
   .social-link:hover, 
   .social-link:active {
     color: darkblue;
+    cursor: pointer;
   }
 
   .social-icon {
     width:2.4rem;
-    height: 2.4rem;
+    height: 2.4rem;    
   }
 
   .copyright {
