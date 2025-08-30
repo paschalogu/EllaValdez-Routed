@@ -3,12 +3,12 @@
   import { goto } from '$app/navigation';
 
   const tourismImages = [
-    { id: 1, src: '/img/gallery/outdoor.jpeg', location: 'Serengeti, Africa', alt: 'Safari landscape at sunset' },
-    { id: 2, src: '/img/gallery/ellaoutdoors.jpeg', location: 'Fiji, Oceania', alt: 'Palm-lined beach resort outdoor scene' },
-    { id: 3, src: '/img/gallery/bar.jpeg', location: 'New York, North America', alt: 'City bar and nightlife scene' },
-    { id: 4, src: '/img/gallery/room.jpeg', location: 'Swiss Alps, Europe', alt: 'Cozy alpine hotel room' },
-    { id: 5, src: '/img/gallery/dinning.jpeg', location: 'Bangkok, Asia', alt: 'Dining experience with local cuisine' },
-    { id: 6, src: '/img/gallery/table.jpeg', location: 'Mendoza, South America', alt: 'Outdoor dining table setting' }
+    { id: 1, src: '/img/gallery/brazil.jpeg', location: 'Santa Teresa, Brazil', alt: 'Santa Teresa, Rio De Janeiro, Brazil' },
+    { id: 2, src: '/img/gallery/kenya.jpeg', location: 'Kenya, Africa', alt: 'Kenya, Africa' },
+    { id: 3, src: '/img/gallery/panama.jpeg', location: 'Panama, Central America', alt: 'Panama, Central America' },
+    { id: 4, src: '/img/gallery/sydney.jpeg', location: 'Sydney, Australia', alt: 'Sydney, Australia' },
+    { id: 5, src: '/img/gallery/hongkong.jpg', location: 'Hong Kong, Asia', alt: 'Hong Kong, Asia' },
+    { id: 6, src: '/img/gallery/mendoza.jpg', location: 'Mendoza, South America', alt: 'Mendoza, South America' }
   ];
 </script>
 
