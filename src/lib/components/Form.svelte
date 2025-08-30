@@ -75,9 +75,16 @@
               <input type="checkbox" class="checkbox" value=" Corporate Gift" id="gifts" name="user_value4" />
             </div>
 
+            <!--
             <div class="checkbox-field">
               <label for="cleaning">Cleaning Services</label>
               <input type="checkbox" class="checkbox" value="Cleaning Services" id="cleaning" name="user_value5" />
+            </div>
+           -->
+
+             <div class="checkbox-field">
+              <label for="tourism">Tourism</label>
+              <input type="checkbox" class="checkbox" value="Tourism" id="tourism" name="user_value6" />
             </div>
           </div>
 

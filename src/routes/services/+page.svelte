@@ -3,6 +3,7 @@
   import Cleaning from "$lib/components/Cleaning.svelte";
   import Events from "$lib/components/Events.svelte";
   import MonumentalMoments from "$lib/components/MonumentalMoments.svelte";
+  import Tourism from "$lib/components/Tourism.svelte";
   import Cta from "../../lib/components/Cta.svelte";
   import { onMount } from 'svelte';
     
@@ -14,7 +15,8 @@
       });
     });
   
-  let items = ['Events', 'Corporate Gifts', 'Cleaning Services'];
+  /* let items = ['Events', 'Corporate Gifts', 'Cleaning Services', 'Tourism']; */ 
+  let items = ['Events', 'Corporate Gifts', 'Tourism']; 
   let activeItem = 'Events';
   let services = true;
   
@@ -31,7 +33,7 @@
         </div>
   
         <div class="services-img-box">
-          <img src="/img/gallery/savvy.jpeg" class="services-img" alt="services image"/>
+          <img src="/img/gallery/savvy.jpeg" class="services-img" alt="Savvy event services team"/>
         </div>
     </div>
     <div class="services-tabs">
@@ -43,6 +45,8 @@
         <MonumentalMoments on:click/>
         {:else if activeItem === 'Cleaning Services'}
         <Cleaning on:click />
+        {:else if activeItem === 'Tourism'}
+        <Tourism on:click />
       {/if}
   
     </div>

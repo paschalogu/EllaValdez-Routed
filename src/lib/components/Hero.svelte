@@ -30,7 +30,7 @@
 
     <!-- {#if slideElement} -->
     <div class="hero-img-box">
-      <img src="/img/image7.jpg" class="hero-img" alt="hero image" />
+      <img src="/img/image7.jpg" class="hero-img" alt="" />
     </div>
     <!-- {/if} in:slide={{delay: 200, axis: "x"}} -->
   </div>

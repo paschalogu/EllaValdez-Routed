@@ -35,8 +35,7 @@ const monumentalMoments = [
 
 
 <style>
-  .moments-container {
-  }
+  /* .moments-container {} */
 
   .monumental-moments-container {
     align-items: center;
@@ -49,7 +48,7 @@ const monumentalMoments = [
     padding: 1.6rem;
   }
 
-  .moments-item {}
+  /*.moments-item {} */
     
   .moments-image {
     display: block;

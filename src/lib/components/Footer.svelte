@@ -61,9 +61,11 @@
       </div>
       <ul class="social-links">
         <!-- <li><a class="social-link" href="#" target="_blank"><ion-icon class="social-icon" name="logo-instagram"></ion-icon></a></li> -->
-        <li><a class="social-link"><ion-icon class="social-icon" name="logo-instagram"></ion-icon></a></li>
-        <li><a class="social-link"><ion-icon class="social-icon" name="logo-facebook"></ion-icon></a></li>
-        <li><a class="social-link"><ion-icon class="social-icon" name="logo-twitter"></ion-icon></a></li>
+        <li><a class="social-link" href="https://instagram.com/" target="_blank" rel="noopener">
+          <ion-icon class="social-icon" name="logo-instagram"></ion-icon>
+        </a></li>
+        <li><a class="social-link" href="https://facebook.com/" target="_blank" rel="noopener"><ion-icon class="social-icon" name="logo-facebook"></ion-icon></a></li>
+        <li><a class="social-link" href="https://twitter.com/" target="_blank" rel="noopener"><ion-icon class="social-icon" name="logo-twitter"></ion-icon></a></li>
       </ul>
     </div>
 

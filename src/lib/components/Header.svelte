@@ -20,8 +20,10 @@
   <Logo />
   <div class="header-nav">
     <DesktopNavigation />
-    <button class="btn-mobile-nav" on:click={toggleMobilNavView}>
-      <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+    <button class="btn-mobile-nav" on:click={toggleMobilNavView} aria-label="Open menu" type="button">
+      <svg class="icon-mobile-nav" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M3 6h18M3 12h18M3 18h18" />
+      </svg>
     </button>
   </div>
   {#if showMobileNavValue}
